@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | NTCV</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        #top-header-div{
+            /*
+            position: fixed;
+            right: 0;
+            left: 0; 
+            */
+        }
+
+        #header{
+            background-color: gray;
+            padding: 20px;
+            color: white;
+        }
+
+        #nav-bar{
+            width: 90%;
+            margin: auto;
+            box-shadow: 1px 5px 5px -4px black;
+            padding: 20px;
+            border-radius: 5px;
+        }
+       
+        #nav-bar{
+            background-color: lightgrey;
+            width: 90%;
+            margin: auto;
+        }
+
+        #nav-bar ul{
+            padding: 0;
+            list-style: none;
+        }
+
+        #nav-bar li{
+            display: inline;
+            padding: 10px;
+        }
+
+
+        #nav-bar a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+
+        .container{
+           width: 90%;
+           margin: auto;
+        }
+
+        #jumboton{
+            margin-top: 10px;
+            padding: 150px;
+            background-image:url('./images/img.jpeg');
+            background-repeat: no-repeat;
+        }
+
+        #jumboton h1{
+            text-align: center;
+            color: white;
+            font-family: 'lucida calligraphy', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+            text-shadow: 2px 2px black;
+        }
+
+        #flex-box-top{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            
+        }
+
+        #flex-box-bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 200px;
+        }
+
+        .flex-one{
+            text-align: center;
+            border: 2px solid lightgray;
+            width: 30%;
+            padding: 50px;
+            box-shadow: 1px 5px 5px -4px black;
+            border-radius: 10px;
+
+        }
+
+        #footer-flex{
+            background-color: gray;
+            display: flex;
+            margin-top: 150px;
+            
+        }
+
+       .flex-partion-one{
+           width: 30%;
+           padding: 40px;
+           color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="div" id="top-header-div">
+            <header id="header">
+                    <h3>Nano Tech Computers Ventures</h3>
+                </header>
+                <nav id="nav-bar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                </nav>
+    </div>
+    <div class="container">
+        <div id="jumboton">
+            <h1>Welcome to Nano Tech Computers Ventures</h1>
+        </div>
+
+        <section>
+                <div id="flex-box-top">
+                    <div class="flex-one">
+                        <h5>20 May, 2021</h5>
+                    </div>
+                    <div class="flex-one">
+                            <h5>I am flex box two</h5>
+                    </div>
+                    <div class="flex-one">
+                            <h5>I am flex box three</h5>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+                <div id="flex-box-bottom">
+                    <div class="flex-one">
+                        <h5>I am flex box one</h5>
+                    </div>
+                    <div class="flex-one">
+                            <h5>I am flex box two</h5>
+                    </div>
+                    <div class="flex-one">
+                            <h5>I am flex box three</h5>
+                    </div>
+                </div>
+        </section>
+
+    </div><!--End of container div--> 
+    
+    <footer>
+            <div id="footer-flex">
+                    <div class="flex-partion-one">
+                        <h5>I am flex box one</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Rerum vel sapiente dolorum ea eius quisquam cupiditate 
+                            necessitatibus dolorem voluptatibus, 
+                            soluta reiciendis accusamus suscipit nihil 
+                            ratione! Aperiam omnis error alias accusantium!
+                        </p>
+                    </div>
+                    <div class="flex-partion-one">
+                        <h5>I am flex box two</h5>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Rerum vel sapiente dolorum ea eius quisquam cupiditate 
+                                necessitatibus dolorem voluptatibus, 
+                                soluta reiciendis accusamus suscipit nihil 
+                                ratione! Aperiam omnis error alias accusantium!
+                            </p>
+                    </div>
+                    <div class="flex-partion-one">
+                        <h5>I am flex box three</h5>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Rerum vel sapiente dolorum ea eius quisquam cupiditate 
+                                necessitatibus dolorem voluptatibus, 
+                                soluta reiciendis accusamus suscipit nihil 
+                                ratione! Aperiam omnis error alias accusantium!
+                            </p>
+                    </div>
+            </div>
+        </footer>
+</body>
+</html>
